@@ -1,0 +1,11 @@
+{
+    "async": true,
+    "crossDomain": true,
+    "url": "https://us-central1-incomm-hackathon-api.cloudfunctions.net/api",
+    "headers": {
+      "x-api-key": "API KEY HERE M8",
+      "Accept": "application/json",
+      "Cache-Control": "no-cache",
+      "Postman-Token": ""
+    }
+  }
