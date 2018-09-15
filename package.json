@@ -1,0 +1,22 @@
+{
+  "name": "hackathonrestapi",
+  "version": "0.0.1",
+  "description": "Order imaginary pizza via this nice api.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanchoPanzerMK2/HackathonRestAPI.git"
+  },
+  "author": "Armando Mercado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SanchoPanzerMK2/HackathonRestAPI/issues"
+  },
+  "homepage": "https://github.com/SanchoPanzerMK2/HackathonRestAPI#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}

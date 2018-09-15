@@ -1,5 +1,13 @@
 var settings = require('./settings.json');
 var querystring = require('querystring');
-url = require('url');
 var https = require('https');
-function createAccount(settings,response)
+var Request = require('request');
+//getter, this works!
+Request.get({
+    url: settings.url+'/accounts',
+    headers: settings.headers,
+    method: 'GET'
+},
+function(e,r,body){
+    console.log(body)
+});
